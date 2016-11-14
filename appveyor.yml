@@ -1,0 +1,10 @@
+services:
+  - mongodb
+
+install:
+  - mvn install -q -DskipTests=true
+
+test_script:
+  - mvn test -q
+
+build: off
